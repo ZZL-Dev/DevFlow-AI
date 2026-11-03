@@ -1,0 +1,15 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Show versions
+        run: |
+          python --version
+          node --version
+      - name: Check structure
+        run: ls backend frontend scripts
+      - name: Demo failure step
+        run: exit 1
