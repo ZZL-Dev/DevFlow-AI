@@ -15,6 +15,7 @@ DevFlow AI 是一个面向 GitHub PR / Issue 研发协作的全栈 AI Agent 项�
 - RAG 聚焦 Issue 描述、PR 说明与 Review 评论、失败 CI 日志、项目文档、上传知识和已批准的长期记忆；当前代码走工作区/词法检索，团队与实时状态走结构化查询。
 - 生成工程周报。
 - 基础 Eval 覆盖 Issue 分类、PR 覆盖度、RAG 命中率、工具 schema 就绪度和结构化输出校验。
+- 演示模式支持 SQLite 与本地关键词检索，无需 Docker 即可体验核心链路。
 
 ## 多 Agent 模型链路
 
